@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.QuotesTest.QuotesTest">
+        <methods>
+          <include name="createQuotesTest1"/>
+          <include name="QuotesSettingsTest"/>
+          <include name="createQuotes"/>
+        </methods>
+      </class> <!-- com.crm.QuotesTest.QuotesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
